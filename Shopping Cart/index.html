@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <h1>Grocery List</h1>
+<!--input fields -->
+<form id="item-form">
+        <input type="text" id="item-name-input" placeholder="item name" />
+        <input type="number" id="item-price-input" placeholder="item price" />
+        <button name="submit" id="submit" type="submit">Add</button>
+</form>
+
+<table data-number-of-items='0' id="table">
+        <tr>
+            <th>Sr. No.</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr id="grandTotalContainer">
+                <td data-ns-test="grandTotal" id="grandTotalAmount" colspan="3">0</td>
+        </tr>
+</table>
+</body>
+</html>
