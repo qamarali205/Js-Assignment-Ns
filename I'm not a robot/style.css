@@ -1,0 +1,40 @@
+/* css code goes here */
+div{
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(244, 226, 26);
+    gap: 10px;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    transition: .1s all ease;
+    border-radius: 50%;
+}
+img.selected{
+    border: 3px red solid;
+    transition: .2s all ease;
+}
+
+#btn,
+#reset{
+    margin: 10px auto;
+    display: block;
+    background-color: red;
+    color: yellow;
+    cursor: pointer;
+}
+#btn{
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    height: auto;
+    width: max-content;
+    padding: 10px;
+}
