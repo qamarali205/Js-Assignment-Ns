@@ -1,0 +1,13 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: transform 2s;
+}
+
+.odd{
+    transform: rotate(180deg) ;
+} 
+.even{
+    transform: rotate(0) ;
+}
