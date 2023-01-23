@@ -1,0 +1,15 @@
+/* css code goes here */
+#container{
+    display: grid;
+    grid-template-columns: repeat(9,50px);
+    grid-template-rows: repeat(9,50px);
+}
+.box{
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+h3{
+    display: inline;
+}

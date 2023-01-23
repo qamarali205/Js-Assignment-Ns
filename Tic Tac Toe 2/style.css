@@ -1,0 +1,11 @@
+/* css code goes here */
+.grid{
+    height: 200px;
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+button:active,button:focus{
+    background-color: red;
+}

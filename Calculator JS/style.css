@@ -1,0 +1,20 @@
+/* css code goes here */
+.display {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#input {
+    text-align: right;
+}

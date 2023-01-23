@@ -1,0 +1,16 @@
+/* css code goes here */
+.container{
+    height: 150vh;
+    width: 70vw;
+    background-color: rgb(128, 64, 9);
+    border-radius: 20px;
+    text-align: center;
+}
+.heading{
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    width: 70vw;
+    text-align: center;
+
+}

@@ -1,0 +1,17 @@
+/* css code goes here */
+*{
+    margin-left: 45px;
+ }
+ table{
+     background-color: rgb(71, 38, 191);
+     margin-top: 5px;
+ 
+ }
+ td,th,tr{
+     padding: 5px;
+     border: 2px solid black;
+     margin-top: 15px;
+ }
+ tr:nth-child(1){
+     background-color: rgba(128, 128, 128, 0.589);
+ }

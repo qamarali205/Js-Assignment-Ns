@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Range Balancer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <!-- html code goes here -->
+<div id="max-sum-holder">
+    <input id="max-sum" type="number" value="50" onchange="funmsum(this)" min="0">
+</div>
+<div id="range-a-holder">
+    <input id="range-a" type="range" value="0" max="0" oninput="funa(this)" onchange="funa(this)">
+    <div id="range-a-value">0</div>
+</div>
+<div id="range-b-holder">
+    <input id="range-b" type="range" value="50" max="50" oninput="funb(this)" onchange="funb(this)">
+    <div id="range-b-value">50</div>
+</div>
+<div id="sum">50</div>
+</body>
+</html>
