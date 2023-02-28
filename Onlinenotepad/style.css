@@ -1,0 +1,17 @@
+/* css code goes here */
+#heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightgrey;
+    align-items: center;
+    height: 25px;
+}
+  textarea {
+        overflow-y: scroll;
+        overflow-x: scroll;
+        height: 80vh;
+        width: 100%;
+        resize: none; 
+        border:1px solid lightslategray;
+    }
