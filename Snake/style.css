@@ -1,0 +1,15 @@
+/* css code goes here */
+#gameContainer{
+    height:400px;
+    width: 400px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(40, 10px);
+  grid-template-rows: repeat(40, 10px);
+}
+.food{
+    background-color: yellow;
+}
+.snakeBodyPixel{
+    background-color: green;
+}
